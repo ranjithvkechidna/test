@@ -1,0 +1,15 @@
+{
+    "name": "ranjith/test",
+    "description": "A test package by ranjith.",
+    "type": "project",
+    "license": "GNU",
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.4.0"
+	},
+    "autoload": {
+        "psr-0": {
+            "Test": "src/"
+        }
+    }
+}
